@@ -1,6 +1,8 @@
 import os
 
 
+os.system('sudo apt update')
+
 os.system('sudo apt install apt-transport-https curl')
 
 os.system('sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg')
